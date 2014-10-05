@@ -3,9 +3,9 @@
 # The difference is that this script lives in the plugin's git repo & doesn't require an existing SVN repo.
 
 # main config
-PLUGINSLUG="eleicoes-brasil"
+PLUGINSLUG="apuracao-eleicoes-brasil"
 CURRENTDIR=`pwd`
-MAINFILE="eleicoes-brasil.php" # this should be the name of your main php file in the wordpress plugin
+MAINFILE="apuracao-eleicoes-brasil.php" # this should be the name of your main php file in the wordpress plugin
 
 # git config
 GITPATH="$CURRENTDIR/" # this file should be in the base of your git repository
