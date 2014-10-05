@@ -1,18 +1,18 @@
 === Apuração Eleições Brasil ===
 Contributors: valeriosza
 Donate link: http://valeriosouza.com.br/doacoes/
-Tags: 
+Tags: eleicoes, apuracao, tse, brasil, brazil
 Requires at least: 3.0
 Tested up to: 4.0
 Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Coloque a apuração das eleições 2014 no seu site em tempo real.
+Coloque a apuração das eleições 2014 do Brasil no seu site em tempo real.
 
 == Description ==
 
-Esse plugin mostra em tempo real os dados da apuração 2014 em seu WordPress, direto do site do TSE.
+Esse plugin mostra em tempo real os dados da apuração 2014 do Brasil em seu WordPress, direto do site do TSE.
 
 == Installation ==
 
