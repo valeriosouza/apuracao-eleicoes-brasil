@@ -12,7 +12,7 @@ Coloque a apuração das eleições 2014 no seu site em tempo real.
 
 == Description ==
 
-Esse plugin mostra em tempo real os dados da apuração 2014 em seu site, direto do site do TSE.
+Esse plugin mostra em tempo real os dados da apuração 2014 em seu WordPress, direto do site do TSE.
 
 == Installation ==
 
@@ -22,7 +22,7 @@ Esse plugin mostra em tempo real os dados da apuração 2014 em seu site, direto
 
 == Contribute ==
 
-Use 
+Use https://github.com/valeriosouza/apuracao-eleicoes-brasil
 
 == Frequently Asked Questions ==
 
@@ -37,7 +37,7 @@ O plugin usa iframe como formato.
 
 == Screenshots ==
 
-1. 
+1. Divulga WEB do TSE em seu site
 
 == Changelog ==
 
