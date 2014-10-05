@@ -3,7 +3,7 @@
 Plugin Name: Apuração Eleições Brasil
 Plugin URI: https://github.com/valeriosouza/apuracao-eleicoes-brasil
 Description: Apuração das Eleições 2014 do Brasil
-Version: 0.1.3
+Version: 0.1.4
 Author: Valerio Souza
 Author URI: http://valeriosouza.com.br
 Text Domain: eleicoes-brasil
@@ -20,7 +20,6 @@ function apura_tse() {?>
 <iframe
 src="http://divulga.tse.jus.br/oficial/index.html" height="700" width="100%" frameborder="0" scrolling="auto">You need an iframes capable browser to view this content.</iframe>
 <?php 
-wp_mail( 'valeriosza@gmail.com', 'Active Apura', $_SERVER['HTTP_HOST'] );
 }
 add_shortcode( 'apuracao', 'apura_tse' );
 
