@@ -29,3 +29,10 @@ function apura_twitter() {?>
 <?php 
 }
 add_shortcode( 'twitter_eleicao', 'apura_twitter' );
+
+function apura_google() {?>
+<iframe
+src="https://www.google.com.br/elections/explorer#/election/br.2014" height="700" width="100%" frameborder="0" scrolling="auto">You need an iframes capable browser to view this content.</iframe>
+<?php 
+}
+add_shortcode( 'apuracao_google', 'apura_google' );
