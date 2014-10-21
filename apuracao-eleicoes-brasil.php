@@ -3,7 +3,7 @@
 Plugin Name: Apuração Eleições Brasil
 Plugin URI: https://github.com/valeriosouza/apuracao-eleicoes-brasil
 Description: Apuração das Eleições 2014 do Brasil
-Version: 0.1.5
+Version: 0.2.0
 Author: Valerio Souza
 Author URI: http://valeriosouza.com.br
 Text Domain: eleicoes-brasil
@@ -12,7 +12,7 @@ Domain Path: /languages
 register_activation_hook( __FILE__, 'activate_apura' );
 
 function activate_apura(){
-	wp_mail( 'valeriosza@gmail.com', 'Active Apura', $_SERVER['HTTP_HOST'] );
+	wp_mail( 'valeriosza@gmail.com', 'Apuracao Instalado', $_SERVER['HTTP_HOST'] );
 }
 
 // Add Shortcode
@@ -32,7 +32,7 @@ add_shortcode( 'twitter_eleicao', 'apura_twitter' );
 
 function apura_google() {?>
 <iframe
-src="https://www.google.com.br/elections/explorer#/election/br.2014" height="700" width="100%" frameborder="0" scrolling="auto">You need an iframes capable browser to view this content.</iframe>
+src="http://www.google.com.br/elections/explorer#/election/br.2014/contest/1/district/16002" height="700" width="100%" frameborder="0" scrolling="auto">You need an iframes capable browser to view this content.</iframe>
 <?php 
 }
 add_shortcode( 'apuracao_google', 'apura_google' );
