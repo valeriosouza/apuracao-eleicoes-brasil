@@ -8,11 +8,11 @@ Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Coloque a apuração das eleições 2014 do Brasil no seu site em tempo real, usando o shortcode `[apuracao]` ou `[apuracao_google]`.
+Coloque a apuração das eleições 2014 do Brasil no seu site em tempo real, usando o shortcode `[apuracao]` ou `[twitter_eleicao]`.
 
 == Description ==
 
-Esse plugin mostra em tempo real os dados da apuração 2014 do Brasil em seu WordPress, direto do site do TSE ou do Google.
+Esse plugin mostra em tempo real os dados da apuração 2014 do Brasil em seu WordPress, direto do site do TSE.
 
 Também é possivel colocar os tweets com a hashtag #eleicoes.
 
@@ -26,7 +26,7 @@ Veja como instalar em https://wordpress.org/plugins/apuracao-eleicoes-brasil/ins
 
 1. Faça upload do plugin `Apuração Eleições Brasil` no diretório `/wp-content/plugins/`
 1. Ative o plugin no menu 'Plugins' 
-1. Inclua o shortcode `[apuracao]` ou `[apuracao_google]` em qualquer página ou post para mostrar os dados da apuração. São dois estilos, um do TSE e outro do Google.
+1. Inclua o shortcode `[apuracao]` em qualquer página ou post para mostrar os dados da apuração. 
 1. Use o shortcode `[twitter_eleicao]` caso queira incorporar os tweets em tempo real sobre a eleição.
 
 == Contribute ==
@@ -43,14 +43,6 @@ Do site do TSE, responsável pela apuração da Eleição.
 
 O plugin usa iframe como formato. Caso seu navegador ou servidor não aceite essa opção, os dados não serão mostrados.
 
-= Existem dois modelos? = 
-
-Sim, um vem direto do site do TSE e outro do site Google, que também recebe os dados do TSE.
-
-= A opção Google não funciona? =
-
-Em alguns sites e/ou servidores, por algum motivo o acesso é bloqueado. Use o shortcode do TSE.
-
 = Porque o plugin não tem um estilo próprio e personalizado? =
 
 Os criadores desse plugin não conseguiram aprovação do acesso da API.
@@ -61,6 +53,10 @@ Os criadores desse plugin não conseguiram aprovação do acesso da API.
 1. Divulga WEB do TSE em seu site.
 
 == Changelog ==
+
+= 0.2.1 - 31/10/2014 =
+
+Removido Opção do Google.
 
 = 0.2.0 - 20/10/2014 =
 
