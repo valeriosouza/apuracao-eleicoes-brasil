@@ -1,10 +1,10 @@
-=== Apuração Eleições Brasil ===
+=== Apuracao Eleicoes Brasil ===
 Contributors: valeriosza
 Donate link: http://valeriosouza.com.br/doacoes/
 Tags: eleicoes, apuracao, tse, brasil, brazil
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 0.2.0
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
