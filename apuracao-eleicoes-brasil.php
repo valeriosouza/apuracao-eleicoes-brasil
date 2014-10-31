@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Apuração Eleições Brasil
+Plugin Name: Apuracao Eleicoes Brasil
 Plugin URI: https://github.com/valeriosouza/apuracao-eleicoes-brasil
 Description: Apuração das Eleições 2014 do Brasil
 Version: 0.2.0
